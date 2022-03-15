@@ -54,6 +54,89 @@
     <div class="date-area">
         <p id="header-date"></p>
     </div>
+
+    <!------------------------------- Main ---------------------------------->
+    <main class="form-area">
+        <h1 class="form-header">Join us</h1>
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position(title) <input type="text" pattern="([A-Za-z])*" name="position" placeholder="CEO"></label>
+                <label class="top">Email* <input type="email" name="position" placeholder="abc@somewhere.com" required></label>
+                <label class="top">Mobile* <input type="number" name="mobile" placeholder="1234567890" required></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership"> NP Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Bronze Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Silver Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Gold Membership</label>
+                
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Tell us about your business</legend>
+                <label><textarea name="business" id="businessDescription" placeholder="What do you do..."></textarea></label>
+                <input type="hidden" id="datetime" name="currdatetime" value="">
+
+            </fieldset>
+
+            <input type="submit" value="Join Now" class="submitBtn">
+
+            <div class="levels">
+
+                <div class="np-level">
+                    <h2>Non-profit Level</h2>
+                    <ul>
+                        <li>For non profit organizations and there is no fee</li>
+                    </ul>
+                </div>
+                <div class="bronze-level">
+                    <h2>Bronze Level</h2>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/month</li>
+                    </ul>
+                </div>
+                <div class="silver-level">
+                    <h2>Silver Level</h2>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/month</li>
+                    </ul>
+                </div>
+                <div class="gold-level">
+                    <h2>Gold Level</h2>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/month</li>
+                    </ul>
+                </div>
+            </div>
+
+        </form>
+        
+    </main>
     <!-- ---------------------------------- Footer  ---------------------------------- -->
     <footer>
         <div class="medium-large-footer">
