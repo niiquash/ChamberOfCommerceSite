@@ -59,6 +59,7 @@ footer div>img {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    z-index: 9999;
 }
 
 .logo-and-name {
@@ -268,6 +269,47 @@ form div.levels {
     padding: 2rem;
 }
 
+/* ------------------- Discover Page ------------------------ */
+.days-elapsed {
+    margin-left: 2vw;
+    font-weight: bold;
+}
+
+.last-visited {
+    color: red;
+}
+
+.dcard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 1vw 1vw;
+    padding: 1rem 2vw;
+    box-shadow: 0 0 2px #333;
+    background: white;
+    border-radius: 5px;
+}
+
+.dcard .picture-element img[data-src]{
+    width: 100%;
+    filter: blur(.2rem)
+}
+
+.dcard .picture-element img{
+    width: 100%;
+    filter: blur(0);
+}
+
+.picture-description {
+    border: 1px solid rgba(0,0,0,0.3);
+    width: auto;
+    margin: 1rem 2vw;
+    padding: 1rem 2vw;
+    box-shadow: 0 0 2px #333;
+    background: white;
+    border-radius: 5px;
+}
+
 /* ------------ Thank You HTML--------------- */
 .join-us-main {
     text-align: center;
@@ -284,15 +326,12 @@ form div.levels {
 
 /* ---------------------------------- Medium CSS  ------------------------------------------ */
 @media only screen and (min-width: 670px) {
+
+    /* --------------- All pages footer  ----------------- */
     .medium-large-footer {
         display: flex;
         justify-content: space-around;
         align-items: center
-    }
-
-    .card6 .spotlt{
-        display: flex;
-        flex-wrap: nowrap;
     }
 
     .footer-image-name {
@@ -305,9 +344,18 @@ form div.levels {
         margin-top: 0;
         margin-left: 20px;
     }
+
+    /* -------------------   Discover page - Gallery  ------------------------ */
+    .dcard-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+    }
+
 }
 /* ---------------------------------- Large CSS  ------------------------------------------ */
 @media only screen and (min-width: 1000px) {
+    /* -------------------- All pages header and footer -------------------------------- */
     #nav-btn {
         display: none;
     }
@@ -330,5 +378,10 @@ form div.levels {
     
     .fa {
         margin: 5px 2px;
+    }
+
+    /* -------------------   Discover page - Gallery  ------------------------ */
+    .dcard-layout {
+        grid-template-columns: repeat(3, 1fr)
     }
 }
