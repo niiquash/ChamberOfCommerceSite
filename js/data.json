@@ -5,84 +5,84 @@
             "address": "490 N 2nd E, Rexburg, ID 83440",
             "phone": "208-789-5656",
             "website": "https://www.albertsons.com",
-            "imageurl": "https://png.pngitem.com/pimgs/s/177-1775055_albertsons-marketplace-logo-hd-png-download.png"
+            "imageurl": "images/companies/albertsons200X200.png"
         },
         {
             "name": "Panera Bread",
             "address": "E, 2820 S 25th E, Idaho Falls, ID 83404",
             "phone": "208-777-8542",
             "website": "https://www.panerabread.com",
-            "imageurl": "https://www.kindpng.com/picc/m/93-935861_transparent-panera-bread-logo-hd-png-download.png"
+            "imageurl": "images/companies/panerabread200X200.png"
         },
         {
             "name": "Micron Technology",
             "address": "8000 S Federal Way, Boise, ID 83716",
             "phone": "281-798-7415",
             "website": "https://www.micron.com",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Micron_Technology_logo.svg/1280px-Micron_Technology_logo.svg.png"
+            "imageurl": "images/companies/microntechnology200X55.png"
         },
         {
             "name": "WinCo Foods",
             "address": "333 N Woodruff Ave, Idaho Falls, ID 83401",
             "phone": "289-555-4567",
             "website": "https://www.wincofoods.com",
-            "imageurl": "https://logo-all.ru/uploads/posts/2016-04/0_winco_foods_logo.jpg"
+            "imageurl": "images/companies/wincofoods200X76.png"
         },
         {
             "name": "Autozone Parts, inc",
             "address": "594 N 2nd E St, Rexburg, ID 83440",
             "phone": "901-495-8813",
             "website": "https://www.autozone.com",
-            "imageurl": "https://www.kindpng.com/picc/m/225-2258818_autozone-auto-parts-logo-hd-png-download.png"
+            "imageurl": "images/companies/autozone200x200.png"
         },
         {
             "name": "Audiology Services Company USA, LLC",
             "address": "Dedham, MA 02026",
             "phone": "732-529-7120",
             "website": "https://www.idahohearingaids.com",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjIeRom5SKjLz9D7dOm0LS5nrX-9tj8tFfOw&usqp=CAU"
+            "imageurl": "images/companies/audiologyservices200X60.png"
         },
         {
             "name": "Ark Security",
             "address": "47 E Main St, Rexburg, ID 83440",
             "phone": "208-356-8474",
             "website": "https://www.arksecurity.com",
-            "imageurl": "https://arksecurity.com/wp-content/uploads/2021/02/ARK-Lock-and-Security-01.png"
+            "imageurl": "images/companies/arksecurity200X64.png"
         },
         {
             "name": "Alliance Title & Escrow",
             "address": "130 E Main St, Rexburg, ID 83440",
             "phone": "208-356-9323",
             "website": "https://www.alliancetitle.com",
-            "imageurl": "https://www.alliancetitle.com/wp-content/uploads/2020/11/Alliance_Horizontal_Logo.png"
+            "imageurl": "images/companies/alliancetitleandescrow200X200.png"
         },
         {
             "name": "Alpine Dermatology Clinic",
             "address": "1049 Summers Dr, Rexburg, ID 83440",
             "phone": "208-359-4841",
             "website": "https://www.alpinedermclinic.com",
-            "imageurl": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1537836.jpg"
+            "imageurl": "images/companies/alpinedermatology200X61.png"
         },
         {
             "name": "Affordable Pest Control",
             "address": "160 N Woodruff Ave",
             "phone": "208-200-3071",
             "website": "https://www.eastidahopestcontrol.com",
-            "imageurl": "https://affordablepestservice.com/wp-content/uploads/Affordale-Pest-Logo.png"
+            "imageurl": "images/companies/affordablepestcontrol200X62.png"
         },
         {
             "name": "0500 Mechanics",
             "address": "390 S 5th W, Rexburg, ID 83440",
             "phone": "208-356-0500",
             "website": "https://www.0500mechanics.com",
-            "imageurl": "data:image/png;base64,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"
+            "imageurl": "images/companies/0500mechanics200X200.png"
         },
         {
             "name": "Archibald Insurance Center",
             "address": "135 W Main St, Rexburg, ID 83440",
             "phone": "208-356-4411",
             "website": "https://www.leavitt.com",
-            "imageurl": "https://archibald-insurance.com/wp-content/uploads/2016/09/Archibald-Logo.png"
+            "imageurl": "images/companies/archibaldinsurancecenter200X67.png"
         }
     ]
 }
