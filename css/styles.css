@@ -282,7 +282,7 @@ div.directory-btns {
 }
 
 div.directory-btns button {
-    background-color: rgba(3, 13, 99, 1);
+    background-color: rgb(3, 13, 99);
     border: none;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -296,6 +296,27 @@ div.directory-btns button:hover {
 div.directory-btns button i {
     width: 100%;
 }
+
+#directory-card-view-btn {
+    margin: .2rem 5vw;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 5rem;
+    color: white;
+    font-size: 2rem;
+    text-align:center;
+}
+#directory-list-view-btn {
+    margin: .2rem 5vw;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 5rem;
+    color: white;
+    font-size: 2rem;
+    text-align:center;
+}
+
+
 
 /* ---------------------- Directory - listView ------------------------------ */
 

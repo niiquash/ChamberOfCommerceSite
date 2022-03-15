@@ -38,8 +38,8 @@ function displayBusinesses(business) {
     document.querySelector("div.cards").appendChild(card);
 }
 
-const gridView = document.querySelector("#directory-card");
-const listView = document.querySelector("#directory-list");
+const gridView = document.querySelector("#directory-card-view-btn");
+const listView = document.querySelector("#directory-list-view-btn");
 const currentDivView = document.querySelector(".cards");
 
 gridView.addEventListener('click', togridView);
