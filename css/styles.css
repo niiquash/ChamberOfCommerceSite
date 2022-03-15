@@ -269,6 +269,73 @@ form div.levels {
     padding: 2rem;
 }
 
+/*----------------------- Directory -------------------- */
+.directory-header {
+    text-align: center;
+}
+
+div.directory-btns {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div.directory-btns button {
+    background-color: rgba(3, 13, 99, 1);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+div.directory-btns button:hover {
+    box-shadow: 0 0 10px black;
+    border: none;
+}
+
+div.directory-btns button i {
+    width: 100%;
+}
+
+/* ---------------------- Directory - listView ------------------------------ */
+
+div.list section {
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+div.list section img {
+    width: 100%;
+    display: none;
+}
+/* ---------------------- Directory - gridView ------------------------------ */
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+div.cards section {
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div.cards section img {
+    width: 100%;
+    padding: 10px;
+}
+
+div.cards section p#business-name {
+    display: none;
+}
+
+div.list section:nth-child(odd) {
+    background-color:rgba(3, 13, 99, 0.2);
+}
+
 /* ------------------- Discover Page ------------------------ */
 .days-elapsed {
     margin-left: 2vw;
@@ -352,6 +419,24 @@ form div.levels {
         gap: 2px;
     }
 
+    /* ---------------------- Directory - listView ------------------------------ */
+
+    div.list section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 20px;
+    }
+
+    div.list section:nth-child(odd) {
+        background-color:rgba(3, 13, 99, 0.2);
+    }
+    /* ---------------------- Directory - gridView ------------------------------ */
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
 }
 /* ---------------------------------- Large CSS  ------------------------------------------ */
 @media only screen and (min-width: 1000px) {
@@ -383,5 +468,9 @@ form div.levels {
     /* -------------------   Discover page - Gallery  ------------------------ */
     .dcard-layout {
         grid-template-columns: repeat(3, 1fr)
+    }
+    /* ---------------------- Directory - gridView ------------------------------ */
+    div.cards {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
