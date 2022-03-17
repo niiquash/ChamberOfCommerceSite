@@ -54,6 +54,89 @@
     <div class="date-area">
         <p id="header-date"></p>
     </div>
+
+    <!-- Main -->
+    <main class="main-area">
+        <div class="main-container">
+            <div class="card card1">
+                <picture>
+                    <source srcset="images/banner/banner-600.png" media="(min-width: 420px) and (max-width: 670px)">
+                    <source srcset="images/banner/banner-1000.png" media="(min-width: 670px) and (max-width: 1000px)">
+                    <source srcset="images/banner/banner-800.png" media="(min-width: 1000px)">
+                    <img src="images/banner/banner-600.png" alt="An emmaculate highway-roundabout road network.">
+                </picture>
+                <h2>Welcome to Candor Corp!</h2>
+                <a href="#" class="banner-btn">Join the Chamber</a>
+            </div>
+
+            <div class="card card2">
+                <h2>Grand Opening</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum officia nostrum deserunt alias
+                    molestias distinctio repellat minus aspernatur inventore in.</p>
+            </div>
+
+            <div class="card card3">
+                <h2>Weather</h2>
+                <section class="weather">
+                    <div class="weather-image">
+                        <p><span id="weather-temp"></span>&deg;F</p>
+                        <figure><img src="" alt="" id="weathericon"> <figcaption></figcaption></figure>
+                    </div>
+                </section>
+                <div class="wind">
+                    <h2>Wind Speed: <span id="wind-speed"></span>km/h</h2>
+                    <h2>Wind Chill: <span id="wind-chill"></span></h2>
+                </div>
+            </div>
+
+            <div class="card card4">
+                <h2>News Release</h2>
+                <p>For all the latest news about the State of Idaho, click the link below:</p>
+                <p><a id="idaho-news" href="https://www.eastidahonews.com/news/local/rexburg/">News, News, News!!!</a></p>
+            </div>
+
+            <div class="card card5">
+                <h2>Value for Money</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis id blanditiis? Ipsa, soluta
+                    consequuntur animi hic ullam est similique.</p>
+                <a href="#" class="joinus-btn">Join Us</a>
+            </div>
+
+            <div class="card card7">
+                <h2>Value for Money</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis id blanditiis? Ipsa, soluta
+                    consequuntur animi hic ullam est similique.</p>
+            </div>
+
+            <div class="card card6">
+                <h2>Companies' Hall of Fame</h2>
+                <div class="spotlt">
+                    <div class="spotlight">
+                        <div class="company-image">
+                            <img src="images/companylogo1.jpg" alt="company image here">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam odio animi. Sint odio veniam
+                            explicabo neque laborum labore accusamus?</p>
+                    </div>
+                    <div class="spotlight">
+                        <div class="company-image">
+                            <img src="images/companylogo2.jpg" alt="company image here">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam odio animi. Sint odio veniam
+                            explicabo neque laborum labore accusamus?</p>
+                    </div>
+                    <div class="spotlight">
+                        <div class="company-image">
+                            <img src="images/companylogo3.jpg" alt="company image here">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam odio animi. Sint odio veniam
+                            explicabo neque laborum labore accusamus?</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- ---------------------------------- Footer  ---------------------------------- -->
     <footer>
         <div class="medium-large-footer">
@@ -84,6 +167,7 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
 
