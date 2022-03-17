@@ -140,11 +140,17 @@ p#header-date {
     box-shadow: 0 0 2px #333;
     border-radius: 3px;
     background-color: white;
+    /* align-content: center;
+    justify-content: center; */
 }
 
 .card1 {
     position: relative;
     padding: 0;
+}
+
+.card5 {
+    position: relative;
 }
 
 .card2,
@@ -178,7 +184,8 @@ picture img {
     left: 20px;
 }
 
-.card1 a {
+.card1 a,
+.card5 a  {
     position: absolute;
     text-decoration: none;
     color: white;
@@ -197,10 +204,30 @@ picture img {
     text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
+.grand-opening-header,
+.weather-header,
+.news-header,
+.value-header,
+.miscellaneous-header,
+.hall-of-fame-header {
+    margin-bottom: 10px;
+}
+
+.grand-opening,
+.value-for-money {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.grand-opening img,
+.value-for-money img {
+    width: 100%;
+}
+
 .card .spotlight {
     border: 1px solid white;
     padding: 10px;
-background-color: white;
+    background-color: white;
 }
 
 .card5 a {
@@ -583,6 +610,54 @@ div.list section:nth-child(odd) {
     .fa {
         margin: 5px 2px;
     }
+
+    /* ------------------------ Homepage  --------------------------- */
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1.5fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        margin: 20px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .card1{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .card4{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .card6{
+        grid-column: 3 / 4;
+        grid-row: 1 / 4;
+    }
+
+    .card7{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .card6 .spotlt{
+        flex-wrap: wrap;
+    }
+
+    .card5 a{
+        transition: all 0.2s ease-out;
+        top: 200px;
+        right: 20px;
+        bottom: 120px;
+        left: 20px;
+        display: block
+    }
+
+    .card5 a:hover {
+        background-color: rgb(9, 114, 6);
+   }
 
     /* -------------------   Discover page - Gallery  ------------------------ */
     .dcard-layout {
