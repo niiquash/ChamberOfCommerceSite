@@ -3,10 +3,10 @@ const requestURL = "js/data.json";
 fetch(requestURL)
     .then((response) => response.json())
     .then((jsonObject) => {
-    console.table(jsonObject);
-    const businesses = jsonObject["businesses"];
-    businesses.forEach(displayBusinesses);
-});
+        console.table(jsonObject);
+        const businesses = jsonObject["businesses"];
+        businesses.forEach(displayBusinesses);
+    });
 
 function displayBusinesses(business) {
     // Create a section/card
@@ -26,7 +26,7 @@ function displayBusinesses(business) {
     biznesWebsite.setAttribute('href', business.website);
     biznesLogo.setAttribute("src", business.imageurl);
     biznesLogo.setAttribute("alt", `${business.name} logo`);
-    
+
     // Appened list items in p-tags into the section/card
     card.appendChild(biznesLogo)
     card.appendChild(biznesName);
@@ -43,6 +43,18 @@ const listView = document.querySelector("#directory-list-view-btn");
 const currentDivView = document.querySelector(".cards");
 
 gridView.addEventListener('click', togridView);
+
+window.addEventListener("resize", mediumScreenListView);
+
+function mediumScreenListView() {
+    // Media screen for start display (Medium View)
+    if (1000 > window.innerWidth && 669 < window.innerWidth) {
+        tolistView();
+    }
+    else {
+        togridView();
+    }
+}
 
 function togridView() {
     currentDivView.classList.remove("list");
