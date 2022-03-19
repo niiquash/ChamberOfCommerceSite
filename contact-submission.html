@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <!------------------------------ Header ------------------------------------>
     <header>
@@ -22,7 +20,7 @@
         <div class="logo-and-button">
             <div class="logo-and-name">
                 <div class="banner">
-                    <a href="index.html"><img src="images/logo/logo.webp" alt="Site Logo" class="logo"></a>
+                    <img src="images/logo/logo.webp" alt="Site Logo" class="logo">
                 </div>
                 <div class="page-title">
                     <h2>Candor Corp</h2>
@@ -57,66 +55,11 @@
         <p id="header-date"></p>
     </div>
 
-    <!-- Main -->
-    <div class="contact-us-header">
-        <h1>Contact Us!</h1>
-        <p>If you have any question about anything on this website, or about how we do business, please feel free to
-            submit an inquiry via the form below.</p>
-    </div>
-    <div class="card contact-us-page">
-        <form class="card contact-form" method="get" action="contact-submission.html">
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Email* <input type="email" name="position" placeholder="abc@somewhere.com" required></label>
-                <label class="top">Mobile* <input type="number" name="mobile" placeholder="1234567890" required></label>
-
-                <label>Message<textarea name="business" class="top" placeholder=" How may we be of service?"></textarea></label>
-                <input type="hidden" id="datetime" name="currdatetime" value="">
-            <input type="submit" value="Send Message" class="message-submit-btn">
-        </form>
-        <div class="card contact-card">
-            <img src="images/miscellaneous/contact-us.png" alt="a man holding a phone">
-            <p>We want to hear from you.</p>
-        </div>
-    </div>
-    <div class="card card6">
-        <h2 class="hall-of-fame-header">Our Board of Directors</h2>
-        <div class="board-of-directors">
-
-            <div class="card card7">
-                <div class="company-image">
-                    <img src="images/miscellaneous/portrait-1.jpg" alt="company image here">
-                </div>
-                <div class="company-description">
-                    <p>John D. Doe</p> <br>
-                    <p>CEO</p>
-                </div>
-    
-            </div>
-            <div class="card card8">
-                <div class="company-image">
-                    <img src="images/miscellaneous/portrait-2.jpg" alt="company image here">
-                </div>
-                <div class="company-description">
-                    <p>Gol D. Roger</p><br>
-                    <p>Founder</p>
-                </div>
-    
-            </div>
-            <div class="card card9">
-                <div class="company-image">
-                    <img src="images/miscellaneous/portrait-3.jpg" alt="company image here">
-                </div>
-                <div class="company-description">
-                    <p>Dr. Vegapunk</p><br>
-                    <p>CTO</p>
-                </div>
-    
-            </div>
-        </div>
-        </div>
-
-
+    <!------------------------------ Main --------------------------->
+    <main class="join-us-main">
+        <h1><span class="fa fa-check"></span>Great! We will respond to you in shortly.</h1>
+        <p class="return-to-home"><a href="index.html">Click here to return to home page.</a></p>
+    </main>
     <!-- ---------------------------------- Footer  ---------------------------------- -->
     <footer>
         <div class="medium-large-footer">
@@ -143,11 +86,12 @@
             </div>
         </div>
         <div class="copyright">
-            &copy; 2022 Candor Corp .:|:. <strong>Ammon Quarshie</strong> .:|:. Rexburg .:|:. Last Updated: <span
-                id="current-date"></span>
+            &copy; 2022 Candor Corp .:|:. <strong>Ammon Quarshie</strong> .:|:. Rexburg .:|:. Last Updated: <span id="current-date"></span>
         </div>
     </footer>
     <script src="js/main.js"></script>
 </body>
-
 </html>
+
+
+

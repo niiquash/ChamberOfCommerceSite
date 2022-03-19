@@ -304,6 +304,34 @@ footer .contact a:hover {
     padding-bottom: 0;
 }
 
+/* -----------------------  Contact Us Page  ------------------------------- */
+.contact-card img {
+    width: 100%;
+}
+
+.contact-us-header h1 {
+    text-align: center;
+}
+
+.contact-us-header p,
+.contact-card p {
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.message-submit-btn {
+    border: none;
+	background-color: rgb(7, 167, 68);
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 10px;
+	width: 100%;
+	max-width: 10rem;
+    transition: all 0.2s ease-out;
+}
 
 /* ---------------------  Join Us FORM --------------------------- */
 .form-area h1.form-header {
@@ -342,7 +370,8 @@ form label.top {
     color:rgb(3, 13, 99);
 }
 
-form label.top input {
+form label.top input,
+label textarea.top {
     display: block;
     font-size: 1rem;
     border: 1px solid rgb(3, 13, 99);
@@ -384,7 +413,8 @@ form input.submitBtn {
     transition: all 0.2s ease-out;
 }
 
-form input.submitBtn:hover {
+form input.submitBtn:hover,
+.message-submit-btn:hover {
     background-color: rgb(32, 140, 73);
     font-weight: bold;
 }
@@ -562,6 +592,9 @@ div.list section:nth-child(odd) {
     body {
         font-size: 16px;
     }
+
+    /* ----------------------- Contact Us ------------------------ */
+    
     
 
     /* --------------- All pages footer  ----------------- */
@@ -696,5 +729,16 @@ div.list section:nth-child(odd) {
     /* ---------------------- Directory - gridView ------------------------------ */
     div.cards {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* ---------------------   Contact Us--------------------- */
+    .contact-us-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .board-of-directors {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
